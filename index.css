@@ -1,0 +1,190 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14pt;
+}
+.h1st {
+  font-size: 36pt;
+  color: #28536B;
+  position: relative;
+  right: 350px;
+  
+}
+
+.p1st {
+ 
+  color: #000426;
+  text-align: center;
+  position: relative;
+  width: 1200px;
+  right: 350px;
+  }
+.h2nd {
+  font-size: 36pt;
+  color: #28536B;
+  position: relative;
+  right: 350px;
+
+}
+
+.p2nd { 
+  color: #000426;
+  text-align: center;
+  position: relative;
+  width: 1200px;
+  right: 350px;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* NAV BAR */
+
+.nav {
+  position: sticky;
+  list-style-type: none;
+  background-color: #28536B;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 10px;
+  height: 80px;
+  
+}
+
+.nav li {
+  color: #000426;
+  font-size: 14pt;
+  padding: 15px 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+
+
+.nav li a:hover {
+  color: #7EA8BE;;
+  cursor: pointer;
+}
+
+.nav-logo {
+  display: block;
+  float: left;
+  /* Uncomment the line below to put the company name at the same height as the rest of the page links! */
+  margin-bottom: 30px; 
+  font-weight: bold;
+  padding-left: 130px;
+  @media (min-width: 1200px) {
+    h1, .h1 {
+      font-size: 2.5rem;
+    }
+  }
+
+}
+
+.nav-links {
+  float: right;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding-right: 100px;
+  
+}
+
+/* 1. HOME SECTION */
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 60pt;
+  margin-top: 10%;
+}
+
+
+.try
+{
+  
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  border-color: black, solid; 
+  border-width: 2px;
+}
+.homepage {
+  display: block;
+  height: 80%;
+  padding: 5% 30% 10% 30%;
+
+}
+
+/* ///////////FOOTER////////////////////////////////////////////////*/
+/* ///////////FOOTER////////////////////////////////////////////////*/
+.footer{
+  width: 100vw;
+  padding-top:30px;
+  padding-bottom:30px;
+  background-color:#28536B;
+  border:3px solid whitesmoke;
+  color: white;
+  display:flex;
+  justify-content: space-around;
+  text-align:center;
+}
+.footer div{
+   text-align:center;
+   background-color:#28536B;
+ }
+.footer div h3{
+  font-weight:300;
+  margin-bottom:30px; 
+  letter-spacing:4px;
+  color:white;
+} 
+.col-1 a{
+  display:block;
+  text-decoration:none;
+  color:white;
+  margin-bottom:10px;
+  margin-right:30px;
+}
+.col-1 a:hover{
+  transition:0.5s ease;
+  opacity:0.5;
+}
+
+form input{
+  width:400px;
+  height:45px;
+  border-radius:4px;
+  text-align:center;
+  margin-top: 20px;
+  margin-bottom:40px;
+  outline:none;
+  border: none;
+}
+form button{
+  margin-top:20px;
+  background: transparent;
+  border:2px solid white;
+  color:white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor:pointer;
+}
+
+.col-3{
+  color:white;
+}

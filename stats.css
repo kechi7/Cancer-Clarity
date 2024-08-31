@@ -1,0 +1,252 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 36pt;
+  color: #28536B;
+ 
+}
+
+p {
+  line-height: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* NAV BAR */
+
+.nav {
+  position: sticky;
+  list-style-type: none;
+  background-color: #28536B;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 10px;
+  height: 80px;
+
+}
+
+.nav li {
+  color: #000426;
+  font-size: 14pt;
+  padding: 15px 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.nav li a:hover {
+  color: #7EA8BE;;
+  cursor: pointer;
+}
+
+.nav-logo {
+  display: block;
+  float: left;
+  /* Uncomment the line below to put the company name at the same height as the rest of the page links! */
+  margin-bottom: 30px; 
+  font-weight: bold;
+  padding-left: 130px;
+  @media (min-width: 1200px) {
+    h1, .h1 {
+      font-size: 2.5rem;
+    }
+  }
+
+}
+
+.nav-links {
+  float: right;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding-right: 100px;
+
+}
+
+
+/*////////////////////Intro/////////////////////////////////  */
+
+
+.head1{
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  color:#28536B;
+}
+
+.para1{
+display:flex;
+justify-content:center;
+text-align: center;
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 40px;
+margin-right: 80px;
+margin-left: 80px;
+font-size: 25px;
+color:#000426;
+}
+/*////////////////////GIF/////////////////////////////////  */
+.banImg{
+  height:400px;
+  width:400px;
+}
+
+.correct-ratio{
+  object-fit:cover;
+}
+
+.gif1{
+  display:flex;
+  justify-content:center;
+  margin-bottom: 100px;
+}
+/*/////////////////////////LOOKER STUDIO DIAGNOSIS//////////////////////////////////  */
+.stat1{
+  display:flex;
+  justify-content:center;
+}
+.stat1Ex {
+  text-align: center;
+  width: 600px;
+  color: #000426;
+  font-size: 20px;
+}
+
+/*/////////////////////////SURVIVAL RATES GOOGAL COLAB//////////////////////////////////  */
+.stat2 {
+  display: flex;
+  justify-content: space-between; 
+  justify-content: center;/* Adjusts space between the images */
+  margin-top: 20px; /* Adjusts space between the images */
+}
+
+.stat2Ex{
+  text-align: center;
+  width: 600px;
+  color: #000426;
+  isplay: flex;
+  justify-content: center;
+}
+
+.stat2ExSec{
+  display:flex;
+  justify-content:center;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 70px;
+  padding-bottom:100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  color:#000426;
+  font-size: 20px;
+  }
+
+.stat2Title{
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  color:#2558B8;
+  margin-top: 90px;
+}
+.stat2Title2{
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  color:#2558B8;
+  margin-top: 90px;
+}
+.stat1Title{
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  color:#2558B8;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+.sSkin1{
+  width:500px;
+  height:500px;
+}
+
+.sSkin2{
+  width:500px;
+  height:500px;
+}
+
+/* ///////////FOOTER////////////////////////////////////////////////*/
+.footer{
+  width: 100vw;
+  padding-top:30px;
+  padding-bottom:30px;
+  background-color:#28536B;
+  border:3px solid whitesmoke;
+  color: white;
+  display:flex;
+  justify-content: space-around;
+  text-align:center;
+}
+.footer div{
+   text-align:center;
+   background-color:#28536B;
+ }
+.footer div h3{
+  font-weight:300;
+  margin-bottom:30px; 
+  letter-spacing:4px;
+  color:white;
+} 
+.col-1 a{
+  display:block;
+  text-decoration:none;
+  color:white;
+  margin-bottom:10px;
+  margin-right:30px;
+}
+.col-1 a:hover{
+  transition:0.5s ease;
+  opacity:0.5;
+}
+
+form input{
+  width:400px;
+  height:45px;
+  border-radius:4px;
+  text-align:center;
+  margin-top: 20px;
+  margin-bottom:40px;
+  outline:none;
+  border: none;
+}
+form button{
+  margin-top:20px;
+  background: transparent;
+  border:2px solid white;
+  color:white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor:pointer;
+}
+
+.col-3{
+  color:white;
+}

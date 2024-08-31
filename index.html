@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CANCER CLARITY</title>
+  <!--<link rel="icon" type="image/x-icon" href="./assets/cake-logo.png"> -->
+  <!-- Google Fonts Link For Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+  <!-- Import Raleway font from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  
+  <!-- CSS Files -->
+  <link href="ChatBot.css" rel="stylesheet" type="text/css" />
+  <link href="index.css" rel="stylesheet" type="text/css" />
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  
+  <!-- JS Files -->
+  <script src="ChatBot.js" defer></script>
+</head>
+
+<body>
+  <!-- NAV BAR -->
+  <ul class="nav">
+    <div class="nav-logo">
+      <li><a href="./index.html">CANCER CLARITY</a></li>
+    </div>
+    <div class="nav-links">
+      <li><a href="./stats.html">STATISTICS</a></li>
+      <li><a href="./support.html">SUPPORT</a></li>
+      <li><a href="./about.html">ABOUT</a></li>
+    </div>
+  </ul>
+
+  <!-- 1. HOME SECTION
+  <h1>CANCER CLARITY</h1>img class = "dark" -->
+
+  <!-- //////////////////////////PARALLAX SCROLLING///////////////////////-->
+
+  <style>
+  .parallax {
+    /* The image used */
+    background-image: url("logo.png");
+
+    /* Set a specific height */
+    min-height: 800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  </style>
+
+  <!-- Container element -->
+  <div class="parallax"></div>
+
+  <!-- //////////////////////////HOMEPAGE IMG AND TEXT///////////////////////-->
+  
+  <div class="homepage">
+    <div style="text-align: center;">
+    <img class = "try" src="./assets/altClaritylogo.png"  alt="A dark blue logo that said Cancer Clarity with a hand holding the moon, like a midnight sky." >
+    </div>
+    <h2 class = "h1st">Did You Know… </h2>
+    
+    <p class = "p1st">  
+      ...according to Skin Cancer Organization, there are significant disparities in survival rates for melanoma between people of color and white individuals. For example, the estimated five-year melanoma survival rate for Black patients is only 71 percent versus 94 percent for White patients.
+    <h2 class ="h2nd">Our Mission</h2>
+    <p class = "p2nd">
+        A disproportionate amount of women of color are passing away from skin cancer as a result of misdiagnosis. Through data visualization, we hope to bring awereness of disparities to the world of cancer, specificilly for women of color, and to spark up implementation of equitable health practices. We want to make sure that everyone has access to the information they need to be informed. With the statistics and data, highlighting the disproportionate numbers in incidence rates, health professionals may find more evidence of the root cause of these discrepancies through a holistic review. 
+      <br></br>Thank you for vising our website!
+      </p>
+
+    </p>
+    
+    
+    </div>
+ 
+  <!--//////////////////////////FOOTER ///////////////////////-->
+
+
+
+  <div class="footer">
+      <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="index.html">Cancer Clarity</a>
+         <a href="stats.html"> The Statistics</a>
+        <a href="support.html">Support</a>
+        <a href="about.html">About</a>
+      </div>
+
+      <div class="col-2">
+        <h3>STAY IN TOUCH</h3>
+        <form>
+          <input type="email" placeholder="Your Email Address" required>
+          <br>
+          <button type="submit">SUBSCRIBE NOW</button>
+        </form>
+      </div>
+
+      <div class="col-3">
+         <p>©2023 Cancer Clarity<br>Logo made by Canva</p>
+      </div>
+   </div>
+
+
+
+
+
+  
+  <!-- Chatbot Section -->
+  <button class="chatbot-toggler">
+    <span class="material-symbols-rounded">mode_comment</span>
+    <span class="material-symbols-outlined">close</span>
+  </button>
+  
+  <div class="chatbot">
+    <header>
+      <h2 class = "chatbot-header">Chatbot</h2>
+      <span class="close-btn material-symbols-outlined">close</span>
+    </header>
+    <ul class="chatbox">
+      <li class="chat incoming">
+        <span class="material-symbols-outlined">smart_toy</span>
+        <p class = "chatbot-p">Hi there 👋<br>How can I help you today?</p>
+      </li>
+    </ul>
+    <div class="chat-input">
+      <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+      <span id="send-btn" class="material-symbols-rounded">send</span>
+    </div>
+  </div>
+
+
+
+  
+  </body>
+
+</html>

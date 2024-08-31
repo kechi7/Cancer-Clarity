@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CANCER CLARITY</title>
+  <!--<link rel="icon" type="image/x-icon" href="./assets/cake-logo.png"> -->
+  <!-- Google Fonts Link For Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+  <!-- Import Raleway font from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="ChatBot.css" rel="stylesheet" type="text/css" />
+  <link href="stats.css" rel="stylesheet" type="text/css" />
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!-- JS Files -->
+  <script src="ChatBot.js" defer></script>
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+  <!-- NAV BAR -->
+  <ul class="nav">
+    <div class="nav-logo">
+      <li><a href="./index.html">CANCER CLARITY</a></li>
+    </div>
+    <div class="nav-links">
+      <li><a href="./stats.html">STATISTICS</a></li>
+      <li><a href="./support.html">SUPPORT</a></li>
+      <li><a href="./about.html">ABOUT</a></li>
+    </div>
+  </ul>
+  
+  <!-- //////////////////////// Intro Section ////////////////////////////////// -->
+   <h1 class="head1">The Statistics</h2>
+     <section class="intro1">
+        <div> 
+          <p class="para1">    By analyzing the numbers of incedence rates, diagnosis rates, populations, etc., we can better understand the cause of inquity in skin cancer diagnosis. </p>
+       </div>
+    </section>
+  <!-- /////////// GIF 1//////////////////////////////////////////////// -->  
+  <section class= "gif1">
+    <img class= "banImg"src=" https://www.quantrium.ai/images/intelligent-process-automation/QuantriumL3-Health.gif" >
+  </section>
+    
+   <!-- ////////////////////////RATE OF DIAGNOSIS LOOKERSTUDIO PLOT////////////////////////////////// -->
+    <h2 class= "stat1Title">Disparities in Diagnosis for Cancer</h2>
+<section class= "stat1">
+ <p> <iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/4a2555ba-2c3e-4470-9337-7f21df02da42/page/VW12D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe></p>
+  <p class= "stat1Ex">
+    <br>In the visualization to the left, we can see that the rate of diagnosis of skin cancer is higher in white individuals, taking up 93.8% of the graph. Although white patients are more commonly diagnosed with skin cancer, looking at the graph to the right lets us know that most POC are diagnosed with skin cancer at a later stage than white patients.
+  </p>
+</section>
+   <!-- ////////////////////////SURVIVAL RATES GOOGAL COLAB////////////////////////////////// -->
+  <h2 class= "stat2Title2">Disparities in Survival Rates for Skin Cancer</h2>
+<section class= "stat2">
+  <div><img class= "sGen1" src="statsImgs/survivalGeneral.png">
+   <img class= "sGen2" src="statsImgs/survivalGen.png"></div>
+  </section>
+  
+    <section class= "stat2ExSec">
+      <div> 
+        <p class="para2">When aggregating the general survival rate for all types of cancer, black females (38%) and black males(36%) have a lower survival rate compared to that of the white demographic with a total average of 47%. 
+ </p>
+     </div>
+  </section>
+
+  
+  <section class= "stat2">
+    <div><img class= "sSkin1" src="statsImgs/5 year survival rate(skin).png">
+     <img class= "sSkin2" src="statsImgs/survivalSkin.png"></div>
+    </section>
+
+      <section class= "stat2ExSec">
+        <div> 
+          <p class="para2">Understanding the general lower survival rate of black patients with cancer is also reflected in the survival rate for skin cancerficall. While the mortality rate is higher in skin cancer than any other type, patients of color still die at a disproportionate rate compared to their white counterparts. This is evident in the average survival rates calculated per demographic showing that white patients have a survival rate of 84.5%. In comparison, black patients only have a survival rate of 70% within five years of battling skin cancer.
+
+
+   </p>
+       </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+  
+  <button class="chatbot-toggler">
+    <span class="material-symbols-rounded">mode_comment</span>
+    <span class="material-symbols-outlined">close</span>
+  </button>
+  <div class="chatbot">
+    <header>
+      <h2>Chatbot</h2>
+      <span class="close-btn material-symbols-outlined">close</span>
+    </header>
+    <ul class="chatbox">
+      <li class="chat incoming">
+        <span class="material-symbols-outlined">smart_toy</span>
+        <p>Hi there 👋<br>How can I help you today?</p>
+      </li>
+    </ul>
+    <div class="chat-input">
+      <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+      <span id="send-btn" class="material-symbols-rounded">send</span>
+
+    </div>
+  </div>
+
+
+
+
+  <!--//////////////////////////FOOTER ///////////////////////-->
+
+  <div class="footer">
+      <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="index.html">Cancer Clarity</a>
+         <a href="stats.html"> The Statistics</a>
+        <a href="support.html">Support</a>
+        <a href="about.html">About</a>
+      </div>
+
+      <div class="col-2">
+        <h3>STAY IN TOUCH</h3>
+        <form>
+          <input type="email" placeholder="Your Email Address" required>
+          <br>
+          <button type="submit">SUBSCRIBE NOW</button>
+        </form>
+      </div>
+
+      <div class="col-3">
+         <p>©2023 Cancer Clarity<br>Logo made by Canva</p>
+      </div>
+   </div>
+</body>
+
+</html>
